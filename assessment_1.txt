@@ -1,0 +1,84 @@
+Runtime
+
+1. The number of animal crackers you have to touch and inspect to determine if one is an elephant cracker determines the workload.
+
+2. As n approaches infinity here are the runtimes listed in descending order of efficiency: 
+    
+        1) O(1)
+        2) O(logn)
+        3) O(n)
+        4) O(nlogn)
+        5) O(n^2)
+        6) O(2^n)
+
+
+Stacks and Queues
+
+1. 
+    1. Stack
+    2. Queue
+    3. Stack
+
+
+2. Situations where a queue would be an appropriate data structure:
+
+    1. 
+        A line of people waiting for a ride at a themepark, the people who entered first, get to ride the attraction first.
+
+    2.
+        A line of people waiting for on open cash register at the grocery store, as soon as one opens up, the person who is at the front of the line, who has been waiting there the longest can go to that one.
+
+
+3. Situations where a stack would be an appropriate data structure:
+
+    1. 
+        Loading groceries into your car. The first ones in are usually that last ones to be unloaded. 
+
+    2. 
+        Pringles in a can. The last one in is the first to be eaten.
+
+
+Linked Lists
+
+    1. 
+        Nodes: the boxes that contain data and a pointer called next 
+        The data for each node would be the part that is not the pointer pointing to the next node, it would be "Apple", "Berry", or "Cherry". The head of the head this linked list 
+        is the node with the data "Apple". This linked list does not 
+        keep track of a tail.
+
+    2. 
+        In a doubly-linked list, each node keeps track of the next node and the previous node, while in a singly-linked list, the node keeps tracke of the next node.
+
+    3. 
+        It's faster to append to the end of a linked list if we keep track of the tail as an attribute, since we 'know' the end and do not have to traverse the list of nodes to check if it is the end node.
+
+
+Trees
+
+    1. 
+        List of nodes visited: 
+        food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, sagg, burritos 
+    2.
+        List of nodes visited: 
+        food, Mexican, enchiladas, tacos, burritos, Indian, saag, tikka masala, Italian, pizza, Sicilian, New York-style, Chicago-style.
+    3. 
+        Binary search tree different that other trees in that there are at most two child nodes per parent node.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
